@@ -1,0 +1,35 @@
+body {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#game-board {
+    width: 500px;
+    height: 500px;
+}
+
+#game-board .col {
+    border: 1px solid #ccc;
+    background-color: rgb(139, 133, 133);
+    height: 50px;
+    width: 50px;
+    box-shadow: 6px 6px 33px 0px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+#game-board .active {
+    background-color: rgb(238, 229, 229);
+}
